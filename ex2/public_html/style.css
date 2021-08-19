@@ -13,16 +13,15 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #container {
-  margin:  auto;
   width: 500px;
   height: 400px;
   background-color: white;
-  display: flex;
-  flex-direction: column;
   box-shadow: 0 0 12px gray;
 }
 
@@ -30,9 +29,7 @@ body {
   width: 400px;
   height: 70px;
   background-color: #f2f2f2;
-  margin: auto;
-  margin-top: 30px;
-  border: 0;
+  margin: 30px auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,28 +50,27 @@ body {
   color: white;
   font-size: 20px;
   text-align: center;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   margin-bottom: 0;
 }
 
 #login-button:hover {
-  background-color: #43A047;
+  background-color: #43a047;
   cursor: pointer;
 }
 
 #desc {
-  background-color:white;
+  background-color: white;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 30px;
 }
 
 #new-account {
-  color: #4CAF50;
+  color: #4caf50;
   margin-left: 10px;
 }
 
 #new-account:hover {
-  color: #43A047;
+  color: #43a047;
   cursor: pointer;
 }
