@@ -14,5 +14,6 @@ $(function () {
     $('#modal-wrapper').fadeOut('fast');
     $('#modal').css({ 'opacity': 0, transform: 'translateY(-20px)'});
   });
+
 });
 
